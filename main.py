@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # Instatantiate
     app = InsultDB()
-    
+
     # Set Parameters
     app.set_redis_connection()
     app.define_schema()
@@ -29,7 +29,3 @@ if __name__ == "__main__":
 
     # 3 Basic Queries
     app.query_data()
-
-
-
-
