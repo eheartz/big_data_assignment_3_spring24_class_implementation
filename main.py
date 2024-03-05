@@ -12,8 +12,8 @@ from RedisUtils import InsultDB
 
 if __name__ == "__main__":
     # Declarations
-    volume = 25
-    search_user = "Reddit"
+    volume = 50
+    search_user = "Martin Luther"
 
     # Instatantiate
     app = InsultDB()
